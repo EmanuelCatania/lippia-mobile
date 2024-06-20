@@ -76,7 +76,7 @@
                 <crowdar.os.version>9.0</crowdar.os.version>
                 <crowdar.appLocation>bs://9d10b7f91c8ed05e264b3aeea6f1ec7bbe5a4081</crowdar.appLocation>
                 <crowdar.projectType.driverCapabilities.jsonFile>src/main/resources/capabilities/browserStackCapabilities.json</crowdar.projectType.driverCapabilities.jsonFile>
-                <crowdar.driverHub>https://javierre2:hQxpAVNy6nnyas3QxQcj@hub-cloud.browserstack.com/wd/hub</crowdar.driverHub>
+                <crowdar.driverHub>https://${env.BSUSER}:${env.AUTHTOKEN}@hub-cloud.browserstack.com/wd/hub</crowdar.driverHub>
                 <crowdar.projectType>MOBILE_ANDROID</crowdar.projectType>
             </properties>
         </profile>
