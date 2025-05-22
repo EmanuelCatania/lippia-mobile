@@ -72,8 +72,8 @@
             <id>BrowserStack</id>
             <properties>
                 <cucumber.runner>testngSecuencial.xml</cucumber.runner>
-                <crowdar.deviceName>Google Pixel 3</crowdar.deviceName>
-                <crowdar.os.version>9.0</crowdar.os.version>
+                <crowdar.deviceName>Google Pixel 6</crowdar.deviceName>
+                <crowdar.os.version>12.0</crowdar.os.version>
                 <crowdar.appLocation>bs://9d10b7f91c8ed05e264b3aeea6f1ec7bbe5a4081</crowdar.appLocation>
                 <crowdar.projectType.driverCapabilities.jsonFile>src/main/resources/capabilities/browserStackCapabilities.json</crowdar.projectType.driverCapabilities.jsonFile>
                 <crowdar.driverHub>https://${env.BSUSER}:${env.AUTHTOKEN}@hub-cloud.browserstack.com/wd/hub</crowdar.driverHub>
