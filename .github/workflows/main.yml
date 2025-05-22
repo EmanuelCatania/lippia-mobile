@@ -1,6 +1,8 @@
 name: Run Maven Tests
 
 on:
+  schedule:
+    - cron: '0 22 * * *'  # 19:00 Argentina (UTC-3)
   push:
     branches: [ main ]
   pull_request:
